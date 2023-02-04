@@ -1,5 +1,6 @@
 import { faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF, faGoogle } from '@fortawesome/free-brands-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
 
 export const services = [
   {
@@ -7,7 +8,7 @@ export const services = [
     icon: faDesktop,
     title: 'Web Design',
     description:
-      'I approach each project individualy and always focus on the result',
+      'I approach each project individualy and always focus on the result.',
   },
   {
     id: 2,
@@ -17,16 +18,9 @@ export const services = [
   },
   {
     id: 3,
-    icon: faFacebookF,
-    title: 'Facebook ADS SMM',
+    icon: faCode,
+    title: 'Software Development',
     description:
-      'Your potential clients will see your services or product on facebook.',
-  },
-  {
-    id: 4,
-    icon: faGoogle,
-    title: 'Google Adwords',
-    description:
-      'Your services or product will appear at the top of the Google search.',
+      'Power your desktop app with the latest software technologies.',
   },
 ]

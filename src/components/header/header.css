@@ -1,5 +1,5 @@
 .header-wrapper {
-  background: url(header_background.jpg) no-repeat center center/cover;
+  background: url(fondoweb.jpg) no-repeat center center/cover;
   height: 100vh;
 }
 
@@ -25,7 +25,7 @@
 
 /*------- BUTTON -----*/
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--primary-white);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -36,7 +36,7 @@
 .btn-main-offer:hover {
   text-decoration: none;
   color: var(--primary-white);
-  background-color: var(--primary-red-hover);
+  background-color: var(--primary-blue);
   transition: 0.2s ease-in-out;
 }
 

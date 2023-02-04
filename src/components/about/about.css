@@ -6,7 +6,7 @@
   width: 16rem;
   border-radius: 50%;
   padding: 0.3rem;
-  border: 0.0625rem solid var(--primary-orange);
+  border: 0.0625rem solid var(--primary-blue);
 }
 
 .photo-wrap {
@@ -16,5 +16,5 @@
 }
 
 .about-heading {
-  color: var(--primary-orange);
+  color: var(--primary-blue);
 }

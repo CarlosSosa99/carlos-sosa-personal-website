@@ -1,0 +1,23 @@
+
+.contact{
+    background-color: var(--primary-blue);
+}
+
+.contact h4{
+    color: var(--primary-light-grey);
+}
+.btn-contact{
+    background-color:#19689a;
+    color:var(--primary-light-grey);
+    border-radius:10%;
+}
+
+.btn-contact:hover {
+    text-decoration: none;
+    color: var(--primary-white);
+    background-color: #0c537f;
+    transition: 0.2s ease-in-out;
+  }
+.formulario{
+  width: 27rem;
+}

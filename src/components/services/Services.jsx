@@ -10,12 +10,12 @@ const Services = () => {
       <div className='container'>
         <div className='row'>
           {services.map((item, key) => (
-            <div className='col-md-3 col-sm-6' key={key}>
+            <div className='col-md-4 col-sm-6' key={key}>
               <div className='box'>
                 <div className='circle'>
                   <FontAwesomeIcon className='icons' icon={item.icon} />
                 </div>
-                <h3>{item.title}</h3>
+                <h3 className='subtitle'>{item.title}</h3>
                 <p>{item.description}</p>
               </div>
             </div>

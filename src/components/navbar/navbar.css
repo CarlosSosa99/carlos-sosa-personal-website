@@ -1,6 +1,8 @@
 .logo {
-  width: 16.25rem;
+  width: 7.25rem;
+  border-radius: 15%;
 }
+
 
 nav {
   z-index: 2;
@@ -20,17 +22,18 @@ nav ul li {
 .navbar-nav li a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primary-dark);
+  margin-top: 1.25rem;
+  color: var(--primary-black) !important;
+  border-top: 0.1875rem solid var(--primary-black);
 }
 
 .navbar-nav li a.active,
 .navbar-nav li a.active:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--primary-blue);
 }
 
 .navbar-nav li a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid var(--primary-blue);
 }
 
 @media (max-width: 768px) {

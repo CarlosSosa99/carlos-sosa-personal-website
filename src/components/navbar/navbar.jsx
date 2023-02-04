@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { Link } from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import logo from './logo.png'
+import logoblancocarlos from './logoblancocarlos.png'
 import './navbar.css'
 
 const navbar = () => {
@@ -13,14 +13,13 @@ const navbar = () => {
     'services',
     'experience',
     'portfolio',
-    'testimonials',
     'contacts',
   ]
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-dark position-fixed w-100'>
+    <nav id="navbar" className='navbar navbar-expand-lg navbar-light bg-white'>
       <div className='container'>
         <a className='navbar-brand' href='#'>
-          <img className='logo' src={logo} alt='My logo' />
+          <img className='logo' src={logoblancocarlos} alt='My logo' />
         </a>
         <button
           className='navbar-toggler'
@@ -31,59 +30,28 @@ const navbar = () => {
           aria-expanded='false'
           aria-label='Toggle navigation'
         >
-          <FontAwesomeIcon icon={faBars} style={{ color: '#f9ab00' }} />
+          <FontAwesomeIcon icon={faBars} style={{ color: '#1e81b0' }} />
         </button>
         <div className='collapse navbar-collapse' id='navbarNav'>
-          <ul className='navbar-nav mx-auto'>
-            {navLinks.map((link, index) => (
-              <li className='nav-item'>
-                <Link
-                  smooth={true}
-                  offset={-100}
-                  to={
-                    link === index
-                      ? 'home'
-                        ? 'about'
-                          ? 'services'
-                            ? 'experience'
-                              ? 'portfolio'
-                                ? 'testimonials'
-                                  ? 'contacts'
-                                  : link
-                                : link
-                              : link
-                            : link
-                          : link
-                        : link
-                      : link
-                  }
-                >
-                  <NavLink
-                    className='nav-link'
-                    aria-current='page'
-                    to={
-                      link === index
-                        ? '/home'
-                          ? '/about'
-                            ? '/services'
-                              ? '/experience'
-                                ? '/portfolio'
-                                  ? '/testimonials'
-                                    ? '/contacts'
-                                    : link
-                                  : link
-                                : link
-                              : link
-                            : link
-                          : link
-                        : link
-                    }
-                  >
-                    {link}
-                  </NavLink>
-                </Link>
-              </li>
-            ))}
+          <ul className='navbar-nav ms-auto mb-2 mb-lg-0' style={{color: '#309da4' }}>
+          <li className="nav-item">
+          <a className="nav-link" href='#home' >Home</a>
+          </li>
+          <li className="nav-item">
+          <a className="nav-link" href='#about' >About</a>
+          </li>
+          <li className="nav-item">
+          <a className="nav-link" href='#services' >Services</a>
+          </li>
+          <li className="nav-item">
+          <a className="nav-link" href='#experience' >Experience</a>
+          </li>
+          <li className="nav-item">
+          <a className="nav-link" href='#portfolio' >Portfolio</a>
+          </li>
+          <li className="nav-item">
+          <a className="nav-link" href='#contacts' >Contact</a>
+          </li>
           </ul>
         </div>
       </div>

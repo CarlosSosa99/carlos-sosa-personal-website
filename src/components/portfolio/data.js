@@ -1,34 +1,34 @@
-import cityGuide from './images/city-guide-app.png'
+import ecommerce from './images/ecommerce.png'
 import portfolio from './images/portfolio.png'
-import taskManager from './images/task-manager.png'
+import todolist from './images/todolist.png'
 
 const PORTFOLIODATA = [
   {
     id: 1,
-    img: cityGuide,
-    title: 'City Guide App Project',
+    img: ecommerce,
+    title: 'Ecommerce PestShop App Project',
     description:
-      'This is a project of City Guide App. In this project shown how to create simple app with React and Bootstrap',
-    github: 'https://github.com/8020Coding/city-guide-app',
-    demo: 'https://city-guide-app-project.herokuapp.com/',
+      'This is a project of a pest store app. In this project you can see an ecommerce for a pets store, i made it with React,Bootstrap and firebase',
+    github: '',
+    demo: '',
   },
   {
     id: 2,
     img: portfolio,
-    title: 'Portfolio Project',
+    title: 'Portfolio Web page',
     description:
-      'Simple application where shown how to implement React and Material-UI to build simple portfolio project',
-    github: 'https://github.com/8020Coding/portfilio',
-    demo: 'https://portfolio-rea-and-material-ui.herokuapp.com/',
+      'portfolio personal website',
+    github: '',
+    demo: '',
   },
   {
     id: 3,
-    img: taskManager,
-    title: 'Task Manager App Project',
+    img: todolist,
+    title: 'TODO list App with react Project',
     description:
-      'In this project I show how to create simple Task Manager using React and Redux to manage the state. Here is shown how to create, update and delete tasks.',
-    github: 'https://github.com/8020Coding/task-manager',
-    demo: 'https://react-redux-task-manager.herokuapp.com/',
+      'In this project you can add, edit and delete tasks',
+    github: '',
+    demo: '',
   },
 ]
 

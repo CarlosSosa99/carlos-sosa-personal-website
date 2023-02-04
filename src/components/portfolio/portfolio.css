@@ -1,12 +1,14 @@
 .portfolio-img {
   width: 100%;
-  border: 0.0625rem solid var(--primary-orange);
+  border: 0.0625rem solid var(--primary-blue);
   padding: 0 0.5rem;
   box-shadow: inset 0 0 0.625rem 0 rgba(0, 0, 0, 1);
 }
-
+.porto{
+  color: var(--primary-blue);;
+}
 .portfolio-img:hover {
-  border: 0.0625rem solid var(--primary-red);
+  border: 0.0625rem solid var(--primary-blue);
   box-shadow: inset 0 0 1.25rem 0 rgba(0, 0, 0, 1);
   cursor: pointer;
 }
@@ -28,7 +30,7 @@
 }
 
 .portfolio-info h2 {
-  color: var(--primary-orange);
+  color: var(--primary-light-grey);
 }
 
 .portfolio-info img {
@@ -48,13 +50,13 @@
 
 .cancelIcon {
   margin-left: 30rem;
-  color: var(--primary-red) !important;
+  color: var(--primary-light-grey) !important;
   font-size: 1.5rem;
   padding: 1rem 0;
 }
 
 .cancelIcon:hover {
-  color: var(--primary-red-hover) !important;
+  color: var(--primary-blue) !important;
   cursor: pointer;
 }
 
