@@ -18,7 +18,7 @@ const navbar = () => {
   return (
     <nav id="navbar" className='navbar navbar-expand-lg navbar-light bg-white'>
       <div className='container'>
-        <a className='navbar-brand' href='#'>
+        <a className='navbar-brand' href=''>
           <img className='logo' src={logoblancocarlos} alt='My logo' />
         </a>
         <button

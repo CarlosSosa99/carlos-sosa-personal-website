@@ -1,10 +1,8 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { getPortfolioId } from './data'
-import cityGuide from './images/city-guide-app.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars, faRectangleXmark } from '@fortawesome/free-solid-svg-icons'
-import { faBuromobelexperte } from '@fortawesome/free-brands-svg-icons'
+import { faRectangleXmark } from '@fortawesome/free-solid-svg-icons'
 
 const PortfolioInfo = () => {
   let params = useParams()

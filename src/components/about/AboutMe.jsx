@@ -18,14 +18,11 @@ const AboutMe = () => {
         <div className='col-lg-6 col-xm-12'>
           <h2 className='text-uppercase about-heading'>about me</h2>
           <p>
-            Hello! I am Carlos. I have been developing websites for more than one year.
-             I'm a Front-End Web Developer. Technologies I use is
-            (HTML, CSS, Boostrap, Javascript, Typescript, ReactJS and NodeJS). I create
-            responsive websites that are displayed on all devices desktops and smartphones.
-            Of course, before I begin developing any webapp, Landing Page,Business Website 
-            or E-commerce, I need to have a ready-made project layout (sketch). And 
-            I’m ready to do this for you, before we start developing 
-            your website, we will discuss all the details of your niche with you.
+            Hello! I am Carlos. I have been developing websites for more than two years.
+             I'm a passionate Web Developer.The Technologies that I use are 
+            (HTML, CSS, Boostrap, Javascript, Typescript, ReactJS,Firebase,MySQL, PHP and NodeJS). I create
+            responsive and functional Personal Website, Bussines Website, Web Applications, Blogs, E-commerce, that are displayed on all devices desktops and smartphones.
+            Before I begin developing any proyect, I would like to have a ready-made project layout (sketch) and the opportunity to discuss all the details of your niche with you to make your dream project come true.
           </p>
         </div>
       </div>

@@ -2,7 +2,6 @@ import React from 'react'
 import Particles from './Particles'
 import Typed from 'react-typed'
 import './header.css'
-import Contacts from '../contacts/Contacts'
 const Header = () => {
   return (
     <section id='home' className='header-wrapper'>
@@ -15,6 +14,8 @@ const Header = () => {
             'Web Design',
             'Web Development',
             'Front-End',
+            'Back-End',
+            'Full-Stack'
             
           ]}
           typeSpeed={40}

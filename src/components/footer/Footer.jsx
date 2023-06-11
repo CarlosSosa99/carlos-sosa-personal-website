@@ -14,8 +14,8 @@ const Footer = () => {
           <img className='logo' src={logoblancocarlos} alt='My logo' />
         </a>  
         <p>
-          I love developing challenging projects that feed me with more experience as a computer programmer 
-          and make my clients happy with my work, don't hesitate to contact me.
+          I love developing challenging projects that feed me with more knowledge 
+          and that others feel satisfied with my results, don't hesitate to contact me.
           </p>
         </div>
      
@@ -47,12 +47,9 @@ const Footer = () => {
         
 
           <div className='contactinfo' style={{color:'#1e81b0'}}>
-          <p>Miami, FL 33135, US</p>
-          <p>
-
-             carlosalbertoitusa@gmail.com
-          </p>
-          <p> +1 786 973 9907</p>
+          <p> location: Miami FL.</p>
+          <p> email: carlosalbertoitusa@gmail.com</p>
+          <p> phone: 1 (786) 973 9907</p>
           </div>
         </div>
       </div>
@@ -61,7 +58,7 @@ const Footer = () => {
 
   <div className="text-center p-4" style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}>
     <p>© 2023 Copyright:</p>
-    <a className="text-reset fw-bold" href="" style={{color:'1e81b0'}}>carlosalbertoitusa.github.io</a>
+    <a className="text-reset fw-bold" href="" style={{color:'1e81b0'}}>portfoliocarlosalbertowebdeveloper.surge.sh</a>
   </div>
  
 </footer>

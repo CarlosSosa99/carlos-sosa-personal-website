@@ -3,19 +3,18 @@ export const experience = [
     id: 1,
     title: '2022-2023',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, vero non ad fuga molestiae quisquam ipsa assumenda tempora natus error ut, at voluptatum nihil repellat, id dolor corrupti! Molestias, ipsum?',
+      'I was certified as a full stack web developer at Miami Dade College through the 4geeks academy. I felt very happy to refresh basic knowledge and enter a more advanced level developing increasingly difficult projects. I feel a very rewarding personal challenge for me.',
   },
   {
     id: 2,
     title: '2021-2022',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quis beatae amet provident numquam voluptate omnis, inventore repellendus unde consequuntur, enim facilis vero asperiores? Consequatur unde voluptatum cum iste architecto, aut officiis ducimus, eveniet aspernatur veniam animi atque consequuntur officia! Magnam repellat numquam, aliquid ullam soluta minus reprehenderit natus! Mollitia.',
+      'I was polishing my skills as a developer, familiarizing myself with the use of design tools such as flexbox, boostrap, css grid, and the use and administration of databases.',
   },
   {
     id: 3,
     title: '2020-2021',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, ducimus optio quae eius ipsum, numquam cum ex ratione pariatur fugiat, maxime error ullam et corrupti recusandae dolorum perspiciatis. Inventore accusamus placeat cum alias, libero totam suscipit ex itaque velit? Ut minima aliquam rem? Hic in ab temporibus earum amet, unde odit et, veniam iure placeat voluptas, aperiam tempora? Provident expedita quis deserunt minima, blanditiis necessitatibus voluptatem aspernatur ex quaerat?',
+    description:'I learned the basics of programming through different courses, also I learned Wordpress, plugins, I did my first projects as a web page for a professional tattoo artist, a page for a delicatessen, restaurant; at that moment I fell in love with programming and the incredible things you can develop with it.'
   },
  
 ]

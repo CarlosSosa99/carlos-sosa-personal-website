@@ -1,34 +1,41 @@
-import ecommerce from './images/ecommerce.png'
-import portfolio from './images/portfolio.png'
-import todolist from './images/todolist.png'
+import ecommercewebexample from './images/ecommercewebexample.png'
+import portfolioimgexample from './images/portfolioimgexample.png'
+import todolistapp from './images/todolistapp.png'
+import tindogexampletemplate from './images/tindogexampletemplate.png'
 
 const PORTFOLIODATA = [
   {
     id: 1,
-    img: ecommerce,
-    title: 'Ecommerce PestShop App Project',
+    img: ecommercewebexample,
+    title: 'Ecommerce PetShop Project',
     description:
-      'This is a project of a pest store app. In this project you can see an ecommerce for a pets store, i made it with React,Bootstrap and firebase',
-    github: '',
-    demo: '',
+      'This is web  you can see an ecommerce example for a PetShop',
+    demo: 'https://ejemplo-tienda-mascota2023.surge.sh/',
   },
   {
     id: 2,
-    img: portfolio,
+    img: portfolioimgexample,
     title: 'Portfolio Web page',
     description:
       'portfolio personal website',
-    github: '',
-    demo: '',
+    demo: 'https://portfoliocarlosalbertowebdeveloper.surge.sh/',
   },
   {
     id: 3,
-    img: todolist,
-    title: 'TODO list App with react Project',
+    img: todolistapp,
+    title: 'TODO list web with react',
     description:
-      'In this project you can add, edit and delete tasks',
-    github: '',
-    demo: '',
+      'In this basic project, you can add, edit, and delete tasks',
+    /* github: '',*/
+    demo: 'https://example-todo-list-2023.surge.sh/',
+  },
+  {
+    id: 4,
+    img: tindogexampletemplate,
+    title: 'Tindog template',
+    description:
+      'This is a template of a tinder app for dogs',
+    demo: 'https://tindog-template-example.surge.sh/',
   },
 ]
 
